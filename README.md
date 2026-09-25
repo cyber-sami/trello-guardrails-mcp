@@ -63,6 +63,16 @@ Trello API errors are turned into short messages that include the status code an
 
 You need Python 3.10 or newer and [uv](https://docs.astral.sh/uv/). pip also works.
 
+### The short way
+
+If you use Claude Code, you can ask it to do the setup for you. For example:
+
+> Set up the Trello MCP server from https://github.com/cyber-sami/trello-guardrails-mcp for Claude Desktop and Claude Code. Read the README first. Create ~/.config/trello-mcp/config.json from the example with chmod 600, and leave the placeholders for me to fill in. Don't ask me to paste my key or token into this chat.
+
+The last sentence matters. Your token then goes straight into a file you control and never appears in a conversation transcript. You still need the key and token from step 1 below.
+
+The manual steps follow.
+
 ### 1. Get a Trello API key and token
 
 1. Open the [Trello Power-Up admin page](https://trello.com/power-ups/admin), create a Power-Up and generate an API key for it.
