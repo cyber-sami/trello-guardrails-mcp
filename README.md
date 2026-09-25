@@ -65,7 +65,7 @@ You need Python 3.10 or newer and [uv](https://docs.astral.sh/uv/). pip also wor
 
 ### The short way
 
-If you use Claude Code, you can ask it to do the setup for you. For example:
+If you use Claude Code, you can ask it to do the setup for you with a prompt like this one.
 
 > Set up the Trello MCP server from https://github.com/cyber-sami/trello-guardrails-mcp for Claude Desktop and Claude Code. Read the README first. Create ~/.config/trello-mcp/config.json from the example with chmod 600, and leave the placeholders for me to fill in. Don't ask me to paste my key or token into this chat.
 
